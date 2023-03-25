@@ -1,0 +1,181 @@
+/* body  */
+body{
+   
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: rgb(97, 97, 97);
+}
+/* bacground colors */
+p{
+    color: rgb(108, 108, 108) !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.text-success{
+    color: rgb(120, 107, 186) !important;
+}
+.btn-primary{
+    background-color: rgb(121, 108, 186);
+    border-color: rgb(120, 107, 186);
+}
+.btn-primary:hover{
+    background-color: rgb(95, 56, 99);
+    border-color: rgb(95, 56, 99);
+}
+.bg-main{
+    background: linear-gradient(to right, rgb(255, 238, 251), rgb(255, 239, 255), rgb(255, 251, 255));
+}
+.bg-sm{
+    background-color: rgb(255, 246, 253) !important;
+}
+.nav-img{
+    width: 60px !important;
+    margin-left: 80%;
+}
+.nav-link{
+    color: rgb(120, 107, 186) !important;
+    font-size: 18px !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link:hover{
+    color: rgb(122, 0, 147) !important;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0.008rem;
+}
+/* header  */
+.bb{
+    margin-top: 15% !important;
+    padding-left: 3%;
+}
+.bb h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(120, 107, 186) ;
+}
+.bb h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.bb h4 span, .about-heading{
+    font-weight: bold;
+    color:  rgb(120, 107, 186);
+}
+.girl-img{
+    width: 150%;
+    margin-top: 15%;
+}
+
+
+/* brands  */
+.brands{
+    margin-top: 60px !important;
+}
+.brand-img{
+    filter: hue-rotate(55deg);
+}
+.brand-img:hover{
+    filter: hue-rotate(46deg);
+    transition-delay: 0.2s;
+}
+/* about */
+
+.section-head{
+    margin-top: 5%;
+}
+.section-head .text-center h3{
+    font-family :Arial, Helvetica, sans-serif;
+    color: rgb(120, 107, 186);
+}
+.about-img{
+    width: 80%;
+} 
+.brand-name{
+    font-size: 24px;
+}
+.mt-20{
+    margin-top: 50px;
+}
+.abouT{
+    font-size: 18px;
+}
+.about-text{
+    font-size: 19px;
+}
+#blog{
+    background: linear-gradient(to right,  rgb(249, 249, 245), rgb(246, 246, 239), rgb(249, 249, 247));
+    padding: 1% 0;
+    padding-bottom: 2%;
+    margin-top: 1.5%;
+}
+.card-title{
+    color: rgb(121, 108, 186);
+    
+}
+.card a img{
+    width: 100%;
+}
+.card:hover .text-success{
+   color: #fff !important;
+}
+.bg-light:hover .card-body{
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+   background-color: rgb(120, 107, 186);
+   border-radius: 9px; 
+   color: #fff !important;
+}
+img:hover{
+    transform: scale(1.02);
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+
+}
+
+
+
+
+
+
+
+
+/* media queries  */
+@media screen and (max-width: 576px) {
+    .girl-img{
+        width: 100%;
+        margin-top: 25%;
+    }
+    #home{
+        padding-top: 19% !important;
+    }
+    .bb h2{
+        font-size: 40px;
+        padding-left: 40px;
+    }
+    .bb h4{
+        font-size: 17px;
+        padding-left: 40px;
+    }
+    
+}
+
+@media  screen and (max-width:768px) {
+    .girl-img{
+        margin-top: 35%;
+    }
+    
+  
+}
+@media  screen and (max-width:992px) {
+    .nav-item{
+        border-bottom: 1px solid rgb(220, 220, 220);
+        padding: 4px 0;
+      }
+      .nav-item:last-child{
+        border: none!important;
+      }
+      .bg-sm{
+        background: linear-gradient(to right, rgba(250, 218, 243, 0.911), rgba(255, 248, 249, 0.865), rgba(254, 248, 253, 0.628));
+    }
+}
